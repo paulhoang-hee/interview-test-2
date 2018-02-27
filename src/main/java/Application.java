@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Task:
  *
@@ -10,7 +13,23 @@
 public class Application {
 
   public static void main(String[] args) {
-    
+    List<String> words = new ArrayList<String>();
+    words.add("Potatoes");
+    words.add("kayak");
+    words.add("java");
+    words.add("mime");
+    words.add("Level");
+    words.add("madam");
+    words.add("racecar");
+    words.add("bicycle");
+    words.add("Rotor");
+    words.add("wow");
+    words.add("badge");
+
+    //implementation
+
   }
+
+
 
 }
